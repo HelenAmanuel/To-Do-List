@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>My To-Do List</h1>
+    <section class="mainSec">
+      <section class="firstSec">
+        <form class="addForm" action="index.html" method="post">
+          <input id="inputItem" placeholder="add item here" type="text" name="" value="">
+          <button id="addItemBtn" type="button" name="">Add To List</button>
+        </form>
+      </section>
+
+      <section class="listSec">
+        <ul id="tasks"></ul>
+      </section>
+
+      <section class="tasksSec" id="tasksSec">
+        <p>You have <span id="remainingTasks">0</span> Remaining Tasks Left</p>
+        <button id="clearAllTasks" type="button" name="button">Clear Tasks</button>
+        <button id="clearCompletedTasks" type="button" name="button">Clear Completed Tasks</button>
+      </section>
+    </section>
+
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
